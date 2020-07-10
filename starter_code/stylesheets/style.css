@@ -1,7 +1,30 @@
-/*
+/* 
 background-grey: #F4F3F4;
 button-purple: #192592
 main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
-*/
+nav grey: #5b5e6d; */
+
+@media screen and (max-width: 768px) {
+    img{
+        width:80vw;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+        border-bottom: 1px solid lightgray;
+    }
+    .slack-logo{
+        width: 30vw;
+        height:80%;
+        margin-left: 5vw;
+        
+    }
+    .fa-bars{
+        font-size: 10vw;
+        margin-right: 10vw;
+        color:#5b5e6d;
+        margin-top: 0.2em;
+    }
+}
